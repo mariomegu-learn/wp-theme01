@@ -1,0 +1,122 @@
+.main,
+.sidebar
+    .titulo-seccion
+        h3
+            font-family: $font-family2
+            font-size: 1.5em
+            line-height: 1.5em
+            font-weight: normal
+            color: $color_terciario_oscuro
+            padding-bottom: 0.62em
+            border-bottom: 4px solid $lineas
+
+.main
+    .titulo_seccion
+        > div
+            padding: 0
+    .single-post
+        .categorias
+            margin-bottom: 1.875em
+    .posts
+        .post
+            margin-bottom: 1.875em
+            .contenedor
+                background: $blanco
+                box-shadow: 0px 0px 5px 0px rgba(black, 0.3 )
+                .thumb
+                    img
+                        width: 100%
+                        vertical-align: top
+                        height: auto
+                .info
+                    padding: 1.25em
+                    .titulo
+                        line-height: 1.125em
+                        margin-bottom: 1.25em
+                        font-size: 1.125em
+                        font-weight: bold
+                        margin-top: 0
+                        a
+                            color: $color_terciario_oscuro
+                    .fecha
+                        color: $color_terciario_claro
+                        font-size: 0.875em
+                        margin-bottom: 1.25em
+                    .extracto
+                        color: $texto
+                        font-size: 1em
+                        height: 8.125em
+                        max-height: 8.125em
+                        line-height: 1.75em
+                        margin-bottom: 1.25em
+                        overflow: hidden
+                        &:hover
+                            overflow: auto
+                    .categorias
+                        ul
+                            list-style: none
+                            li
+                                display: inline-block
+                        a
+                            color: $color_terciario_claro
+                            font-size: 1em
+                            font-weight: bold
+                            margin-right: 1.25em
+                            &:hover
+                                color: $color_primario
+                                text-decoration: none
+                
+
+    .paginacion
+        > div
+            padding: 0
+            ul
+                list-style: none
+                overflow: hidden
+                margin-bottom: 1.25em
+                font-size: 1em
+                li
+                    float: left
+                    background: $color_terciario_oscuro
+                    color: #fff
+                    margin-right: 0.62em
+                    font-size: 1.125em
+                    line-height: 1.125em
+                    &.disable
+                        padding: 0.62em 0.937em
+                        font-size: 1.125em
+                        line-height: 1.125em
+                    a
+                        background: $color_primario
+                        color: #fff
+                        line-height: 1.125em
+                        display: inline-block
+                        padding: 0.62em 0.937em
+                        &:hover
+                            background: $color_secundario
+                            text-decoration: none
+
+    .wp-pagenavi
+        margin-bottom: 1.25em
+        .pages,
+        span
+            background: $color_terciario_oscuro
+            color: #fff
+            margin-right: 0.62em
+            font-size: 1.125em
+            line-height: 1.125em
+            padding: 0.62em 0.937em
+        a
+            background: $color_primario
+            color: #fff
+            line-height: 1.125em
+            display: inline-block
+            padding: 0.62em 0.937em
+            margin-right: 0.62em
+            &:hover
+                background: $color_secundario
+                text-decoration: none
+                
+
+
+                
